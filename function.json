@@ -1,0 +1,260 @@
+{
+    "name": "send_lead",
+    "description": "Отправка лида",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "surname": {
+                "type": "string",
+                "description": "Фамилия клиента",
+            },
+            "name": {
+                "type": "string",
+                "description": "Имя клиента",
+            },
+            "patronymic": {
+                "type": "string",
+                "description": "Отчество клиента",
+            },
+            "mobile_phone": {
+                "type": "string",
+                "description": "Номер мобильного телефона клиента",
+            },
+            "additional_phone": {
+                "type": "string",
+                "description": "Дополнительный номер телефона клиента",
+            },
+            "email": {
+                "type": "string",
+                "description": "E-mail клиента",
+            },
+            "date_of_birth": {
+                "type": "string",
+                "description": "Дата рождения клиента",
+            },
+            "personal_number": {
+                "type": "string",
+                "description": "Личный номер клиента",
+            },
+            "leasing_subject_name": {
+                "type": "string",
+                "description": "Наименование предмета лизинга",
+            },
+            "cost": {
+                "type": "string",
+                "description": "Стоимость предмета лизинга",
+            },
+            "quantity": {
+                "type": "string",
+                "description": "Количество предметов лизинга",
+            },
+            "advance": {
+                "type": "string",
+                "description": "Сумма аванса",
+            },
+            "contract_currency": {
+                "type": "string",
+                "description": "Валюта договора",
+            },
+            "contract_term": {
+                "type": "string",
+                "description": "Срок договора",
+            },
+            "place_of_birth": {
+                "type": "string",
+                "description": "Место рождения клиента",
+            },
+            "gender": {
+                "type": "string",
+                "description": "Пол клиента",
+            },
+            "conviction": {
+                "type": "string",
+                "description": "Наличие судимости",
+            },
+            "document": {
+                "type": "string",
+                "description": "Тип документа",
+            },
+            "citizenship": {
+                "type": "string",
+                "description": "Гражданство клиента",
+            },
+            "series": {
+                "type": "string",
+                "description": "Серия документа",
+            },
+            "number": {
+                "type": "string",
+                "description": "Номер документа",
+            },
+            "issue_date": {
+                "type": "string",
+                "description": "Дата выдачи документа",
+            },
+            "validity_period": {
+                "type": "string",
+                "description": "Срок действия документа",
+            },
+            "issued_by": {
+                "type": "string",
+                "description": "Организация, выдавшая документ",
+            },
+            "index": {
+                "type": "string",
+                "description": "Индекс адреса регистрации",
+            },
+            "country": {
+                "type": "string",
+                "description": "Страна адреса регистрации",
+            },
+            "region": {
+                "type": "string",
+                "description": "Область адреса регистрации",
+            },
+            "district": {
+                "type": "string",
+                "description": "Район адреса регистрации",
+            },
+            "city": {
+                "type": "string",
+                "description": "Населенный пункт адреса регистрации",
+            },
+            "street": {
+                "type": "string",
+                "description": "Улица адреса регистрации",
+            },
+            "house": {
+                "type": "string",
+                "description": "Дом адреса регистрации",
+            },
+            "building": {
+                "type": "string",
+                "description": "Строение или корпус адреса регистрации",
+            },
+            "apartment": {
+                "type": "string",
+                "description": "Квартира адреса регистрации",
+            },
+            "index_actual_address": {
+                "type": "string",
+                "description": "Индекс адреса фактического проживания",
+            },
+            "country_actual_address": {
+                "type": "string",
+                "description": "Страна адреса фактического проживания",
+            },
+            "region_actual_address": {
+                "type": "string",
+                "description": "Область адреса фактического проживания",
+            },
+            "district_actual_address": {
+                "type": "string",
+                "description": "Район адреса фактического проживания",
+            },
+            "city_actual_address": {
+                "type": "string",
+                "description": "Населенный пункт адреса фактического проживания",
+            },
+            "street_actual_address": {
+                "type": "string",
+                "description": "Улица адреса фактического проживания",
+            },
+            "house_actual_address": {
+                "type": "string",
+                "description": "Дом адреса фактического проживания",
+            },
+            "building_actual_address": {
+                "type": "string",
+                "description": "Строение или корпус адреса фактического проживания",
+            },
+            "apartment_actual_address": {
+                "type": "string",
+                "description": "Квартира адреса фактического проживания",
+            },
+            "organization_name": {
+                "type": "string",
+                "description": "Наименование организации клиента",
+            },
+            "position": {
+                "type": "string",
+                "description": "Должность клиента",
+            },
+            "experience": {
+                "type": "string",
+                "description": "Стаж работы клиента",
+            },
+            "income": {
+                "type": "string",
+                "description": "Доход клиента",
+            },
+            "hr_or_accounting_phone": {
+                "type": "string",
+                "description": "Телефон отдела кадров или бухгалтерии",
+            },
+            "marital_status": {
+                "type": "string",
+                "description": "Семейное положение клиента",
+            },
+            "number_of_dependents": {
+                "type": "string",
+                "description": "Количество иждивенцев клиента",
+            },
+            "education": {
+                "type": "string",
+                "description": "Уровень образования клиента",
+            },
+            "military_duty": {
+                "type": "string",
+                "description": "Наличие воинской обязанности у клиента",
+            },
+            "relative_or_spouse_surname": {
+                "type": "string",
+                "description": "Фамилия близкого родственника или супруги/супруга",
+            },
+            "relative_or_spouse_name": {
+                "type": "string",
+                "description": "Имя близкого родственника или супруги/супруга",
+            },
+            "relative_or_spouse_patronymic": {
+                "type": "string",
+                "description": "Отчество близкого родственника или супруги/супруга",
+            },
+            "relative_or_spouse_phone": {
+                "type": "string",
+                "description": "Телефон близкого родственника или супруги/супруга",
+            },
+            "main_passport_spread": {
+                "type": "string",
+                "description": "Фото главного разворота паспорта",
+            },
+            "spread_30-31": {
+                "type": "string",
+                "description": "Фото разворота 30-31 паспорта",
+            },
+            "spread_with_registration": {
+                "type": "string",
+                "description": "Фото разворота с регистрацией паспорта",
+            }
+        },
+        "required": [
+            "surname", "name", "patronymic", "mobile_phone", "email", "date_of_birth",
+            "personal_number", "leasing_subject_name", "cost", "quantity",
+            "advance", "contract_currency", "contract_term", "place_of_birth", "gender",
+            "conviction", "document", "citizenship", "series", "number", "issue_date",
+            "validity_period", "issued_by", "index", "country", "region", "district",
+            "city", "street", "house", "building", "apartment",
+            "index_actual_address", "country_actual_address",
+            "region_actual_address", "district_actual_address",
+            "city_actual_address", "street_actual_address",
+            "house_actual_address", "building_actual_address",
+            "apartment_actual_address", "organization_name", "position",
+            "experience", "income", "hr_or_accounting_phone", "marital_status",
+            "number_of_dependents", "education", "military_duty",
+            "relative_or_spouse_surname", "relative_or_spouse_name",
+            "relative_or_spouse_patronymic", "relative_or_spouse_phone",
+            "main_passport_spread", "spread_30-31", "spread_with_registration"
+        ]
+    }
+}
+
